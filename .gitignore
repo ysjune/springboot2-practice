@@ -1,5 +1,7 @@
 # Project exclude paths
 .gradle
 .idea
-/build/
+build/
 application-oauth.properties
+src/test/resources/
+build/classes/java/
