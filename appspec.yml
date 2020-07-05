@@ -17,7 +17,7 @@ hooks:
       timeout: 60
       runas: ec2-user
   ApplicationStart:
-    - location: deploy.sh # 엔진엑스와 연결되어 있지 않은 prot 로 새 버전의 스프링부트를 시작합니다.
+    - location: start.sh # 엔진엑스와 연결되어 있지 않은 prot 로 새 버전의 스프링부트를 시작합니다.
       timeout: 60
       runas: ec2-user
   ValidateService:
